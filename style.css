@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+
+}
+
+#color-palette {
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.one {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-right: 3px;
+}
+
+.two {
+    width: 50px;
+    height: 50px;
+    background-color: #541f14;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-right: 3px;
+}
+
+.three {
+    width: 50px;
+    height: 50px;
+    background-color: #938172;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-right: 3px;
+}
+
+.for {
+    width: 50px;
+    height: 50px;
+    background-color: #cc9e61;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+#pixel-board {
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: black
+}
+
+.pixel {
+    background-color: white;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+}

@@ -1,49 +1,53 @@
+body {
+    background-image: url(./foto/dkc2hd-e1518447804612.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 h1 {
     text-align: center;
+    font-size: 100px;
+    color: #fff;
+    margin-top: 50px;
 
 }
 
 #color-palette {
-
     margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+
+}
+
+.color {
+    width: 75px;
+    height: 75px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin-right: 3px;
 }
 
 .one {
-    width: 50px;
-    height: 50px;
     background-color: black;
-    border-radius: 30px;
-    border: 1px solid black;
-    margin-right: 3px;
 }
 
 .two {
-    width: 50px;
-    height: 50px;
     background-color: #541f14;
-    border-radius: 30px;
-    border: 1px solid black;
-    margin-right: 3px;
 }
 
 .three {
-    width: 50px;
-    height: 50px;
     background-color: #938172;
-    border-radius: 30px;
-    border: 1px solid black;
-    margin-right: 3px;
 }
 
 .for {
-    width: 50px;
-    height: 50px;
     background-color: #cc9e61;
-    border-radius: 30px;
-    border: 1px solid black;
+}
+
+.five {
+    background-color: white;
 }
 
 #pixel-board {
@@ -57,7 +61,6 @@ h1 {
 }
 
 .pixel {
-    background-color: white;
     border: 1px solid black;
     width: 40px;
     height: 40px;
